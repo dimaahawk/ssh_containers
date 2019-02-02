@@ -1,4 +1,5 @@
 SEED=$(date|md5sum|head -c 15)
+export SEED
 HOST=container_$(SEED)
 PORT=2222
 PASS='1@mth3b0ss!'
